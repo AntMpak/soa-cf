@@ -5,7 +5,7 @@ import java.util.Objects;
 public class MobileContact extends AbstractEntity implements IdentifialEntity {
 
     private UserDetails userDetails;
-    public String phoneNumber;
+    private String phoneNumber;
 
     public MobileContact() {
 
